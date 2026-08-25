@@ -3,7 +3,7 @@
   padding: 0;
  box-sizing: border-box;
  font-family: helventica neue;
- color: #fff;
+ 
 }
 
 html, body{
@@ -17,6 +17,7 @@ html, body{
  width: 100%;
    padding: 20px;
  
+ 
 }
 
 .card{
@@ -24,4 +25,18 @@ html, body{
     width: 300px;
     background-color: #fff;
     border-radius:0px;
+    padding : 20px;
+}
+
+.card .top{
+  display:flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  border: 2px solid #dadada;
 }
