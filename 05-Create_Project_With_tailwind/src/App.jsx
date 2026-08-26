@@ -1,12 +1,14 @@
 import React from 'react'
 import './index.css';
 import Section1 from './Components/Section1/Section1' 
-import Section2 from './Components/Section2/Section2' 
+import Page1Content from './Components/Section1/Page1Content'
+
 const App = () => {
   return (
     <div>
-      <Section1 />
-      <Section2 />
+      <Section1/>
+     
+
     </div>
   )
 }

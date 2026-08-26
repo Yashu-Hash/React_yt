@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@remixicon/react": "^4.9.0",
     "@tailwindcss/vite": "^4.3.3",
+    "lucide-react": "^1.34.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "remixicon": "^4.9.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
